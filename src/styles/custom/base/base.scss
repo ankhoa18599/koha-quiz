@@ -1,0 +1,15 @@
+@layer base {
+  html,
+  body {
+    @apply m-0 p-0;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    @apply scroll-pt-[var(--nav-height-mb)] lg:scroll-pt-[var(--nav-height)];
+  }
+}
